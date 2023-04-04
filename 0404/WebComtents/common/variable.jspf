@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<hr><br>
+<%
+	request.setCharacterEncoding("UTF-8");
+	String hobby=request.getParameter("hobby");
+	String [] departs = request.getParameterValues("depart");
+	String userName=request.getParameter("userName");
+%>
+[파일] [편집] [편의] [사용] [도움말]	사용자 이름:<%= userName %>
+<hr><br>
